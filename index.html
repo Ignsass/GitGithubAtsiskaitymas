@@ -3,11 +3,62 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Metaverse</title>
   <link rel="stylesheet" href="main.css">
   <script src="main.js" defer></script>
 </head>
 <body>
+  <div class="background">
+    <div class="content">
+        <div class="logo">
+            <img src="resources/meta-logo.ico" alt="meta-logo">
+        </div>
+        <hr>
+        <h1>METAVERSE</h1>
+        <h3>INNOVATION THAT WILL SHAPE HOW WE <span class="highlight">CONNECT</span> IN THE WORLD AN <span class="highlight">OPPORTUNITY</span> FOR EVERYBODY.</h3>
+        <hr>
+        <div class="buttons">
+            <button class="butt-intro" onclick="openTab('intro')">INTRO</button>
+            <button onclick="openTab('work')">WORK</button>
+            <button onclick="openTab('about')">ABOUT</button>
+            <button onclick="openTab('contact')">CONTACT</button>
+        </div>
+    </div>
+</div>
+<div id="intro" class="tab-content">
+    <span class="close-btn" onclick="closeTab('intro')">X</span>
+    <h2>INTRO</h2>
+    <video id="introVideo" class="tab-video" controls autoplay loop muted playsinline preload="auto">
+        <source src="resources/tab-1.mp4"  type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ipsa ipsam aliquid perspiciatis, repellendus nobis unde similique aperiam laborum illo vel assumenda laboriosam culpa magni consequuntur, dolore nesciunt doloremque rerum! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam quis omnis odit nostrum obcaecati amet reiciendis earum architecto, nobis dolorem, delectus modi, nemo sed dicta excepturi quia quisquam. Aliquam, praesentium.
+    </p>
+</div>
+
+<div id="work" class="tab-content">
+
+    <span class="close-btn" onclick="closeTab('work')">X</span>
+    <h2>WORK</h2>
+    <img src="resources/tab-2.jpg" alt="Intro" class="tab-image">
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ipsa ipsam aliquid perspiciatis, repellendus nobis unde similique aperiam laborum illo vel assumenda laboriosam culpa magni consequuntur, dolore nesciunt doloremque rerum! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam quis omnis odit nostrum obcaecati amet reiciendis earum architecto, nobis dolorem, delectus modi, nemo sed dicta excepturi quia quisquam. Aliquam, praesentium.</p>
+</div>
+
+<div id="about" class="tab-content">
+    <span class="close-btn" onclick="closeTab('about')">X</span>
   
+    <h2>ABOUT</h2>
+    <img src="resources/tab-3.jpg" alt="Intro" class="tab-image">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ipsa ipsam aliquid perspiciatis, repellendus nobis unde similique aperiam laborum illo vel assumenda laboriosam culpa magni consequuntur, dolore nesciunt doloremque rerum! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam quis omnis odit nostrum obcaecati amet reiciendis earum architecto, nobis dolorem, delectus modi, nemo sed dicta excepturi quia quisquam. Aliquam, praesentium.</p>
+</div>
+
+<div id="contact" class="tab-content">
+    <span class="close-btn" onclick="closeTab('contact')">X</span>
+    
+    <h2>CONTACT</h2>
+    <img src="resources/tab-4.jpg" alt="Intro" class="tab-image">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ipsa ipsam aliquid perspiciatis, repellendus nobis unde similique aperiam laborum illo vel assumenda laboriosam culpa magni consequuntur, dolore nesciunt doloremque rerum! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam quis omnis odit nostrum obcaecati amet reiciendis earum architecto, nobis dolorem, delectus modi, nemo sed dicta excepturi quia quisquam. Aliquam, praesentium.</p>
+</div>
 </body>
 </html>

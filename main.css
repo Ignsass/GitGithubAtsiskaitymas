@@ -109,6 +109,7 @@ button:hover {
   overflow: hidden;
 }
 .highlight {
+  color: #00ffff;
   border-bottom: 1px dotted white;
   cursor: pointer;
   transition: color 0.3s;
